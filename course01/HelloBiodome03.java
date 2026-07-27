@@ -25,7 +25,6 @@ public class HelloBiodome03 {
 
         double h = calculateH(temperature, humidity, oxygen);
         System.out.println(String.format("생명지수 H = %.2f", h));
-        System.out.println(String.format("생명지수 H = " + h));
     }
 
     // 습도값을 인자로 입력 받아 루트 계산 결과를 반환하는 메소드
